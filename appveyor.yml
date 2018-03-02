@@ -7,3 +7,6 @@ build:
   - 7z a Handout_test.zip "%APPVEYOR_BUILD_FOLDER%\Fisica\Physics2_class2 - handout\Game\Pinball"
   - 7z a SpikeFromAppveyor.zip "%APPVEYOR_BUILD_FOLDER%\Physics_class2 - handout\Game\*.dll"
   - 7z a Handout_test.zip "%APPVEYOR_BUILD_FOLDER%\Fisica\README.md"
+
+artifacts:
+  - path: Handout_test.zip 
