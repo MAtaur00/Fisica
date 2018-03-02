@@ -5,3 +5,5 @@ build:
   after_build:
   - 7z a Handout_test.zip "%APPVEYOR_BUILD_FOLDER%\Fisica\Physics2_class2 - handout"
   - 7z a Handout_test.zip "%APPVEYOR_BUILD_FOLDER%\Fisica\README.md"
+
+  - path: Handout_test.zip
